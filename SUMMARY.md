@@ -32,3 +32,7 @@
 * [Spring Boot を TDD で進める](spring-boot/testing-strategy.md)
 * [Spring Data JPA を TDD で学ぶ](spring-boot/spring-data-jpa.md)
 * [Testcontainers を使う発展章](spring-boot/testcontainers.md)
+* [Validation と例外ハンドリング](spring-boot/validation-and-exception-handling.md)
+* [RestClient / WebClient のテスト](spring-boot/rest-client.md)
+* [認証が入った API のテスト](spring-boot/security.md)
+* [非同期イベントのテスト](spring-boot/async-events.md)

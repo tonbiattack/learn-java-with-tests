@@ -65,6 +65,10 @@ mvn test
 19. [Spring Boot を TDD で進める](spring-boot/testing-strategy.md) - 計画中
 20. [Spring Data JPA を TDD で学ぶ](spring-boot/spring-data-jpa.md)
 21. [Testcontainers を使う発展章](spring-boot/testcontainers.md)
+22. [Validation と例外ハンドリング](spring-boot/validation-and-exception-handling.md)
+23. [RestClient / WebClient のテスト](spring-boot/rest-client.md) - 計画中
+24. [認証が入った API のテスト](spring-boot/security.md) - 計画中
+25. [非同期イベントのテスト](spring-boot/async-events.md) - 計画中
 
 ## コード配置
 

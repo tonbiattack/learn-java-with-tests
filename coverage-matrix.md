@@ -63,3 +63,16 @@
 `learn-go-with-tests` の章ベースでは、現状は「基礎後半とアプリケーション中盤まで」が Java 化できている段階です。
 
 次に埋めるなら、`Context`、`property based testing`、`Time`、`OS exec`、`Context-aware Reader` の順で広げると、残りの未着手領域が減ります。
+
+## Spring Boot 独自の発展章
+
+以下は `learn-go-with-tests` の原本には直接対応しないものの、Java / Spring Boot 教材として追加している章です。
+
+| 章 | 状況 | 根拠 |
+|---|---:|---|
+| [Spring Data JPA を TDD で学ぶ](spring-boot/spring-data-jpa.md) | ★★★ | [PlayerController.java](/C:/apps/learn-java-with-tests/src/main/java/dev/learnjavawithtests/springdatajpa/v1/PlayerController.java:1)、[PlayerRepositoryTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/springdatajpa/v1/PlayerRepositoryTest.java:1) |
+| [Testcontainers を使う発展章](spring-boot/testcontainers.md) | ★★★ | [PlayerRepositoryPostgresContainerTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/springdatajpa/v1/PlayerRepositoryPostgresContainerTest.java:1)、[PlayerControllerPostgresContainerTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/springdatajpa/v1/PlayerControllerPostgresContainerTest.java:1) |
+| [Validation と例外ハンドリング](spring-boot/validation-and-exception-handling.md) | ★★★ | [RegistrationController.java](/C:/apps/learn-java-with-tests/src/main/java/dev/learnjavawithtests/springvalidation/v1/RegistrationController.java:1)、[RegistrationControllerTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/springvalidation/v1/RegistrationControllerTest.java:1) |
+| [RestClient / WebClient のテスト](spring-boot/rest-client.md) | ☆☆☆ | ドキュメントのみ |
+| [認証が入った API のテスト](spring-boot/security.md) | ☆☆☆ | ドキュメントのみ |
+| [非同期イベントのテスト](spring-boot/async-events.md) | ☆☆☆ | ドキュメントのみ |
