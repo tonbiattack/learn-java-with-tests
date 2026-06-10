@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Learn Java with Tests](README.md)
+* [learn-go-with-tests 対応表](coverage-matrix.md)
 
 ## Java 基礎
 

@@ -59,6 +59,7 @@ mvn test
 ## 元ネタ
 
 - [learn-go-with-tests](./learn-go-with-tests/README.md)
+- [対応状況の星取表](coverage-matrix.md)
 
 ## Spring を使う方針
 
