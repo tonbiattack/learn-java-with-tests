@@ -49,11 +49,16 @@ mvn test
 9. [依存性注入](java-fundamentals/dependency-injection.md)
 10. [モック](java-fundamentals/mocking.md)
 11. [並行性](java-fundamentals/concurrency.md)
+12. [Select](java-fundamentals/select.md)
+13. [リフレクション](java-fundamentals/reflection.md)
+14. [同期](java-fundamentals/sync.md)
 
 ### アプリケーションを作る
 
-12. [HTTP API 入門](spring-boot/http-api.md)
-13. [IO と永続化](build-an-application/io.md)
+15. [HTTP API 入門](spring-boot/http-api.md)
+16. [IO と永続化](build-an-application/io.md)
+17. [コマンドライン](build-an-application/command-line.md)
+18. [WebSockets](build-an-application/websockets.md)
 
 ## コード配置
 
@@ -78,6 +83,5 @@ mvn test
 - `Optional`
 - `Spring Data JPA`
 - `HTTP クライアント/サーバ`
-- `Command line`
-- `WebSocket`
-- `並行処理`
+- `Time`
+- `Property based testing`

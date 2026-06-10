@@ -23,9 +23,9 @@
 | Dependency Injection | [依存性注入](java-fundamentals/dependency-injection.md) | ★★★ | [Greeter.java](/C:/apps/learn-java-with-tests/src/main/java/dev/learnjavawithtests/di/v1/Greeter.java:1)、[GreeterTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/di/v1/GreeterTest.java:1) |
 | Mocking | [モック](java-fundamentals/mocking.md) | ★★★ | [Countdown.java](/C:/apps/learn-java-with-tests/src/main/java/dev/learnjavawithtests/mocking/v1/Countdown.java:1)、[CountdownTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/mocking/v1/CountdownTest.java:1) |
 | Concurrency | [並行性](java-fundamentals/concurrency.md) | ★★★ | [ConcurrentWebsiteChecker.java](/C:/apps/learn-java-with-tests/src/main/java/dev/learnjavawithtests/concurrency/v1/ConcurrentWebsiteChecker.java:1)、[ConcurrentWebsiteCheckerTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/concurrency/v1/ConcurrentWebsiteCheckerTest.java:1) |
-| Select | なし | ☆☆☆ | Java 対応方針も未整理 |
-| Reflection | なし | ☆☆☆ | 未着手 |
-| Sync | なし | ☆☆☆ | 未着手 |
+| Select | [Select](java-fundamentals/select.md) | ★★★ | [UrlRacer.java](/C:/apps/learn-java-with-tests/src/main/java/dev/learnjavawithtests/select/v1/UrlRacer.java:1)、[UrlRacerTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/select/v1/UrlRacerTest.java:1) |
+| Reflection | [リフレクション](java-fundamentals/reflection.md) | ★★★ | [ReflectiveWalker.java](/C:/apps/learn-java-with-tests/src/main/java/dev/learnjavawithtests/reflection/v1/ReflectiveWalker.java:1)、[ReflectiveWalkerTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/reflection/v1/ReflectiveWalkerTest.java:1) |
+| Sync | [同期](java-fundamentals/sync.md) | ★★★ | [SafeCounter.java](/C:/apps/learn-java-with-tests/src/main/java/dev/learnjavawithtests/sync/v1/SafeCounter.java:1)、[SafeCounterTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/sync/v1/SafeCounterTest.java:1) |
 | Context | なし | ☆☆☆ | 未着手 |
 | Intro to property based tests | なし | ☆☆☆ | 未着手 |
 | Maths | なし | ☆☆☆ | 未着手 |
@@ -37,9 +37,9 @@
 | HTTP server | [HTTP API 入門](spring-boot/http-api.md) | ★★★ | Spring Boot で HTTP エンドポイントと MVC テストを実装済み |
 | JSON, routing and embedding | [HTTP API 入門](spring-boot/http-api.md) | ★★☆ | JSON と routing はあるが、埋め込み相当は未実装 |
 | IO and sorting | [IO と永続化](build-an-application/io.md) | ★★★ | [FilePlayerStore.java](/C:/apps/learn-java-with-tests/src/main/java/dev/learnjavawithtests/io/v1/FilePlayerStore.java:1)、[FilePlayerStoreTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/io/v1/FilePlayerStoreTest.java:1) |
-| Command line & project structure | なし | ☆☆☆ | 未着手 |
+| Command line & project structure | [コマンドライン](build-an-application/command-line.md) | ★★★ | [LeagueCli.java](/C:/apps/learn-java-with-tests/src/main/java/dev/learnjavawithtests/commandline/v1/LeagueCli.java:1)、[LeagueCliTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/commandline/v1/LeagueCliTest.java:1) |
 | Time | なし | ☆☆☆ | 未着手 |
-| WebSockets | なし | ☆☆☆ | 未着手 |
+| WebSockets | [WebSockets](build-an-application/websockets.md) | ★★★ | [GameWebSocketHandler.java](/C:/apps/learn-java-with-tests/src/main/java/dev/learnjavawithtests/websockets/v1/GameWebSocketHandler.java:1)、[GameWebSocketHandlerTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/websockets/v1/GameWebSocketHandlerTest.java:1) |
 
 ## Questions and answers
 
@@ -54,10 +54,10 @@
 
 | 区分 | 件数 |
 |---|---:|
-| `★★★` 実装済み | 10 |
+| `★★★` 実装済み | 15 |
 | `★★☆` 部分実装 | 6 |
-| `☆☆☆` 未着手 | 11 |
+| `☆☆☆` 未着手 | 6 |
 
-`learn-go-with-tests` の章ベースでは、現状は「基礎中盤と IO まで」が Java 化できている段階です。
+`learn-go-with-tests` の章ベースでは、現状は「基礎後半とアプリケーション中盤まで」が Java 化できている段階です。
 
-次に埋めるなら、`Select`、`Reflection`、`Sync`、`Command line`、`WebSockets` の順で広げると、Go 版の後半に近づきます。
+次に埋めるなら、`Context`、`property based testing`、`Time`、`OS exec`、`Context-aware Reader` の順で広げると、残りの未着手領域が減ります。

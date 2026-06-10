@@ -16,8 +16,13 @@
 * [依存性注入](java-fundamentals/dependency-injection.md)
 * [モック](java-fundamentals/mocking.md)
 * [並行性](java-fundamentals/concurrency.md)
+* [Select](java-fundamentals/select.md)
+* [リフレクション](java-fundamentals/reflection.md)
+* [同期](java-fundamentals/sync.md)
 
 ## アプリケーションを作る
 
 * [HTTP API 入門](spring-boot/http-api.md)
 * [IO と永続化](build-an-application/io.md)
+* [コマンドライン](build-an-application/command-line.md)
+* [WebSockets](build-an-application/websockets.md)
