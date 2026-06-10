@@ -45,10 +45,15 @@ mvn test
 5. [配列とリスト](java-fundamentals/arrays-and-lists.md)
 6. [クラスとインターフェース](java-fundamentals/classes-and-interfaces.md)
 7. [例外と状態](java-fundamentals/exceptions.md)
+8. [マップ](java-fundamentals/maps.md)
+9. [依存性注入](java-fundamentals/dependency-injection.md)
+10. [モック](java-fundamentals/mocking.md)
+11. [並行性](java-fundamentals/concurrency.md)
 
-### Spring Boot で作る
+### アプリケーションを作る
 
-8. [HTTP API 入門](spring-boot/http-api.md)
+12. [HTTP API 入門](spring-boot/http-api.md)
+13. [IO と永続化](build-an-application/io.md)
 
 ## コード配置
 
@@ -69,10 +74,10 @@ mvn test
 
 ## 次に追加しやすい章
 
-- `Map`
 - `Stream`
 - `Optional`
-- `Mock`
 - `Spring Data JPA`
 - `HTTP クライアント/サーバ`
+- `Command line`
+- `WebSocket`
 - `並行処理`

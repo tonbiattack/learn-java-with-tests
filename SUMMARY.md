@@ -12,7 +12,12 @@
 * [配列とリスト](java-fundamentals/arrays-and-lists.md)
 * [クラスとインターフェース](java-fundamentals/classes-and-interfaces.md)
 * [例外と状態](java-fundamentals/exceptions.md)
+* [マップ](java-fundamentals/maps.md)
+* [依存性注入](java-fundamentals/dependency-injection.md)
+* [モック](java-fundamentals/mocking.md)
+* [並行性](java-fundamentals/concurrency.md)
 
-## Spring Boot で作る
+## アプリケーションを作る
 
 * [HTTP API 入門](spring-boot/http-api.md)
+* [IO と永続化](build-an-application/io.md)
