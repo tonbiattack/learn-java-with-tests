@@ -1,5 +1,6 @@
 package dev.learnjavawithtests.springvalidation.v1;
 
+import dev.learnjavawithtests.springsecurity.v1.SecurityConfiguration;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
@@ -15,7 +16,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @WebMvcTest(RegistrationController.class)
-@Import(ApiErrorHandler.class)
+@Import({ApiErrorHandler.class, SecurityConfiguration.class})
 class RegistrationControllerTest {
 
     @Autowired
@@ -69,4 +70,3 @@ class RegistrationControllerTest {
                         """));
     }
 }
-

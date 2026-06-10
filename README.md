@@ -71,7 +71,7 @@ mvn test
 25. [Testcontainers を使う発展章](spring-boot/testcontainers.md)
 26. [Validation と例外ハンドリング](spring-boot/validation-and-exception-handling.md)
 27. [RestClient / WebClient のテスト](spring-boot/rest-client.md)
-28. [認証が入った API のテスト](spring-boot/security.md) - 計画中
+28. [認証が入った API のテスト](spring-boot/security.md)
 29. [非同期イベントのテスト](spring-boot/async-events.md) - 計画中
 
 ### Questions and answers
