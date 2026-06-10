@@ -64,7 +64,7 @@ mvn test
 
 19. [Spring Boot を TDD で進める](spring-boot/testing-strategy.md) - 計画中
 20. [Spring Data JPA を TDD で学ぶ](spring-boot/spring-data-jpa.md)
-21. [Testcontainers を使う発展章](spring-boot/testcontainers.md) - 計画中
+21. [Testcontainers を使う発展章](spring-boot/testcontainers.md)
 
 ## コード配置
 
