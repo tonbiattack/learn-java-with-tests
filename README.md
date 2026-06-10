@@ -60,6 +60,12 @@ mvn test
 17. [コマンドライン](build-an-application/command-line.md)
 18. [WebSockets](build-an-application/websockets.md)
 
+### Spring Boot を深める
+
+19. [Spring Boot を TDD で進める](spring-boot/testing-strategy.md) - 計画中
+20. [Spring Data JPA を TDD で学ぶ](spring-boot/spring-data-jpa.md) - 計画中
+21. [Testcontainers を使う発展章](spring-boot/testcontainers.md) - 計画中
+
 ## コード配置
 
 各章のサンプルコードは `src/main/java/dev/learnjavawithtests/...`、テストは `src/test/java/dev/learnjavawithtests/...` にあります。
@@ -77,11 +83,12 @@ mvn test
 
 `2026-06-10` 時点では、`Spring Boot 3.5.14` は公式ブログで公開されている安定版で、公式ドキュメント上も Java 17 以上が必要条件です。`JDK 21` ならこの教材の方針と噛み合います。
 
+ORM を扱う章では `Spring Data JPA` を使います。JPA を controller 直下に置くのではなく、service / repository / entity の責務を分けて、`@DataJpaTest` と単体テストを組み合わせる方針です。
+
 ## 次に追加しやすい章
 
 - `Stream`
 - `Optional`
-- `Spring Data JPA`
 - `HTTP クライアント/サーバ`
 - `Time`
 - `Property based testing`
