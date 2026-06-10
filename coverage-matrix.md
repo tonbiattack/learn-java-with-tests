@@ -28,9 +28,9 @@
 | Select | [Select](java-fundamentals/select.md) | ★★★ | [UrlRacer.java](/C:/apps/learn-java-with-tests/src/main/java/dev/learnjavawithtests/select/v1/UrlRacer.java:1)、[UrlRacerTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/select/v1/UrlRacerTest.java:1) |
 | Reflection | [リフレクション](java-fundamentals/reflection.md) | ★★★ | [ReflectiveWalker.java](/C:/apps/learn-java-with-tests/src/main/java/dev/learnjavawithtests/reflection/v1/ReflectiveWalker.java:1)、[ReflectiveWalkerTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/reflection/v1/ReflectiveWalkerTest.java:1) |
 | Sync | [同期](java-fundamentals/sync.md) | ★★★ | [SafeCounter.java](/C:/apps/learn-java-with-tests/src/main/java/dev/learnjavawithtests/sync/v1/SafeCounter.java:1)、[SafeCounterTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/sync/v1/SafeCounterTest.java:1) |
-| Context | なし | ☆☆☆ | 未着手 |
-| Intro to property based tests | なし | ☆☆☆ | 未着手 |
-| Maths | なし | ☆☆☆ | 未着手 |
+| Context | [Context](java-fundamentals/context.md) | ★★★ | [CancellableCounter.java](/C:/apps/learn-java-with-tests/src/main/java/dev/learnjavawithtests/context/v1/CancellableCounter.java:1)、[CancellableCounterTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/context/v1/CancellableCounterTest.java:1) |
+| Intro to property based tests | [プロパティベーステスト入門](java-fundamentals/roman-numerals.md) | ★★★ | [RomanNumerals.java](/C:/apps/learn-java-with-tests/src/main/java/dev/learnjavawithtests/romannumerals/v1/RomanNumerals.java:1)、[RomanNumeralsTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/romannumerals/v1/RomanNumeralsTest.java:1) |
+| Maths | [Maths](java-fundamentals/maths.md) | ★★★ | [ClockSvgRenderer.java](/C:/apps/learn-java-with-tests/src/main/java/dev/learnjavawithtests/maths/v1/ClockSvgRenderer.java:1)、[ClockSvgRendererTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/maths/v1/ClockSvgRendererTest.java:1) |
 
 ## Build an application
 
@@ -40,29 +40,29 @@
 | JSON, routing and embedding | [HTTP API 入門](spring-boot/http-api.md) | ★★☆ | JSON と routing はあるが、埋め込み相当は未実装 |
 | IO and sorting | [IO と永続化](build-an-application/io.md) | ★★★ | [FilePlayerStore.java](/C:/apps/learn-java-with-tests/src/main/java/dev/learnjavawithtests/io/v1/FilePlayerStore.java:1)、[FilePlayerStoreTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/io/v1/FilePlayerStoreTest.java:1) |
 | Command line & project structure | [コマンドライン](build-an-application/command-line.md) | ★★★ | [LeagueCli.java](/C:/apps/learn-java-with-tests/src/main/java/dev/learnjavawithtests/commandline/v1/LeagueCli.java:1)、[LeagueCliTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/commandline/v1/LeagueCliTest.java:1) |
-| Time | なし | ☆☆☆ | 未着手 |
+| Time | [Time](build-an-application/time.md) | ★★★ | [BlindScheduler.java](/C:/apps/learn-java-with-tests/src/main/java/dev/learnjavawithtests/time/v1/BlindScheduler.java:1)、[BlindSchedulerTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/time/v1/BlindSchedulerTest.java:1) |
 | WebSockets | [WebSockets](build-an-application/websockets.md) | ★★★ | [GameWebSocketHandler.java](/C:/apps/learn-java-with-tests/src/main/java/dev/learnjavawithtests/websockets/v1/GameWebSocketHandler.java:1)、[GameWebSocketHandlerTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/websockets/v1/GameWebSocketHandlerTest.java:1) |
 
 ## Questions and answers
 
 | learn-go-with-tests | Java 版の状況 | 評価 | 根拠 |
 |---|---|---:|---|
-| OS exec | なし | ☆☆☆ | 未着手 |
+| OS exec | [OS exec](questions-and-answers/os-exec.md) | ★★★ | [GitVersionFinder.java](/C:/apps/learn-java-with-tests/src/main/java/dev/learnjavawithtests/qanda/osexec/v1/GitVersionFinder.java:1)、[GitVersionFinderTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/qanda/osexec/v1/GitVersionFinderTest.java:1) |
 | Error types | [例外と状態](java-fundamentals/exceptions.md) | ★★☆ | カスタム例外はあるが、独立した設計論としてはまだ弱い |
-| Context-aware Reader | なし | ☆☆☆ | 未着手 |
+| Context-aware Reader | [Context-aware Reader](questions-and-answers/context-aware-reader.md) | ★★★ | [ContextAwareReader.java](/C:/apps/learn-java-with-tests/src/main/java/dev/learnjavawithtests/qanda/contextreader/v1/ContextAwareReader.java:1)、[ContextAwareReaderTest.java](/C:/apps/learn-java-with-tests/src/test/java/dev/learnjavawithtests/qanda/contextreader/v1/ContextAwareReaderTest.java:1) |
 | Revisiting HTTP Handlers | なし | ★★☆ | `MockMvc` による HTTP テストの入口はあるが、章としての設計論は未実装 |
 
 ## 集計
 
 | 区分 | 件数 |
 |---|---:|
-| `★★★` 実装済み | 15 |
+| `★★★` 実装済み | 21 |
 | `★★☆` 部分実装 | 6 |
-| `☆☆☆` 未着手 | 6 |
+| `☆☆☆` 未着手 | 0 |
 
 `learn-go-with-tests` の章ベースでは、現状は「基礎後半とアプリケーション中盤まで」が Java 化できている段階です。
 
-次に埋めるなら、`Context`、`property based testing`、`Time`、`OS exec`、`Context-aware Reader` の順で広げると、残りの未着手領域が減ります。
+元の `learn-go-with-tests` で未着手だった章は一通り埋まり、残っているのは Java 向けに意図的に再構成した `★★☆` の章です。
 
 ## Spring Boot 独自の発展章
 
